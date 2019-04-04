@@ -1,0 +1,18 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:scrollbarStyle="outsideOverlay"
+    android:visibility="visible"
+    tools:context="pl.lightcode.exploretheworld.home">
+
+
+    <include
+        layout="@layout/content_main"
+        layout_height="wrap_content"
+        layout_width="match_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</ScrollView>

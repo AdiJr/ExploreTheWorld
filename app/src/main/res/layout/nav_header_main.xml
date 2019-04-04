@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light"
+    android:backgroundTint="@color/colorAccent"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="8dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="1"
+    app:layout_collapseParallaxMultiplier="1.0">
+
+    <ImageView
+        android:id="@+id/side_nav_logo_1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_weight="0.11"
+        android:adjustViewBounds="true"
+        android:contentDescription="coliseum"
+        android:cropToPadding="true"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_gravity="left"
+        android:visibility="visible"
+        app:srcCompat="@mipmap/side_nav_logo_2" />
+
+    <ImageView
+        android:id="@+id/side_nav_logo_2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_weight="0.40"
+        android:adjustViewBounds="true"
+        android:contentDescription="syden_opera_house"
+        android:cropToPadding="true"
+        android:paddingBottom="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        app:srcCompat="@mipmap/side_nav_logo_1" />
+
+    <ImageView
+        android:id="@+id/side_nav_logo_3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_weight="0.62"
+        android:adjustViewBounds="true"
+        android:layout_gravity="right"
+        android:contentDescription="statue_of_liberty"
+        android:cropToPadding="true"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:visibility="visible"
+        app:srcCompat="@mipmap/side_nav_logo_3" />
+
+</LinearLayout>

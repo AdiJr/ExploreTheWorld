@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_open">Otwórz</string>
+    <string name="navigation_drawer_close">Zamknij</string>
+    <string name="home">Strona główna</string>
+    <string name="nav_europe">Europa</string>
+    <string name="nav_asia">Azja</string>
+    <string name="nav_north_america">Ameryka Północna</string>
+    <string name="nav_south_america">Ameryka Południowa</string>
+    <string name="nav_africa">Afryka</string>
+    <string name="nav_australia">Australia</string>
+    <string name="nav_unesco">Zabytki UNESCO</string>
+    <string name="c_pl">Polska</string>
+    <string name="info">Informacje</string>
+    <string name="nav_settings">Ustawienia</string>
+    <string name="nav_rate">Oceń nas</string>
+    <string name="text_flag">Flaga</string>
+    <string name="text_emblem">Godło</string>
+    <string name="anthem">Hymn:</string>
+    <string name="capital">Stolica:</string>
+    <string name="capital_pl">Warszawa</string>
+    <string name="search">Szukaj</string>
+    <string name="favorites">Ulubione</string>
+    <string name="Home_title">Witaj w aplikacji Explore The World!</string>
+    <string name="home_text_main">Odkrywaj świat, zdobywaj informacje o interesujących Cię państwach, poznawaj niesamowite miejsca i przeżyj wspaniałe podróże. Rozszerz swoją wiedzę o mniej znane kraje, poznaj ich kulturę i mieszkańców. \nDaj się zainspirować pięknem lokalnych parków i cudów natury. Przygotuj się w podróż dookoła świata i miej z niej jeszcze większą satysfakcję właśnie dzięki aplikacji Explore The World.</string>
+    <string name="home_nav_txt">- Kliknij na symbol lupy lub skorzystaj z menu po lewej stronie, aby wyszukać intreresujące Cię państwo z wielkiej bazy lokalizacji.\n\n- Kliknij na symbol gwiazdki aby zobaczyć listę ulubionych miejsc i mieć do nich szybki dostęp.</string>
+    <string name="home_end">Życzymy niezapomnianych wrażeń z podróży!!!</string>
+    <string name="search_hint">Szukaj państw&#8230;</string>
+    <string name="help">Pomoc</string>
+    <string name="europe">Państwa europejskie</string>
+    <string name="albania">Albania</string>
+    <string name="andorra">Andora</string>
+    <string name="austria">Austria</string>
+    <string name="belarus">Białoruś</string>
+    <string name="belgium">Belgia</string>
+    <string name="bosnia">Bośnia i Hercegowina</string>
+</resources>

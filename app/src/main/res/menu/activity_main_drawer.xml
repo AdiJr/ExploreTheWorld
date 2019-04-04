@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/home"
+            android:title="@string/home"
+            android:visible="true" />
+    </group>
+
+    <item android:title="Kontynenty">
+        <menu>
+            <item
+                android:id="@+id/nav_europe"
+                android:icon="@mipmap/europe"
+                android:title="@string/nav_europe" />
+            <item
+                android:id="@+id/nav_asia"
+                android:icon="@mipmap/asia"
+                android:title="@string/nav_asia" />
+            <item
+                android:id="@+id/nav_north_america"
+                android:icon="@mipmap/north_america"
+                android:title="@string/nav_north_america" />
+            <item
+                android:id="@+id/nav_south_america"
+                android:icon="@mipmap/south_america"
+                android:title="@string/nav_south_america" />
+            <item
+                android:id="@+id/nav_africa"
+                android:icon="@mipmap/africa"
+                android:title="@string/nav_africa" />
+            <item
+                android:id="@+id/nav_australia"
+                android:icon="@mipmap/australia"
+                android:title="@string/nav_australia" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_unesco"
+        android:icon="@mipmap/unesco_logo"
+        android:title="@string/nav_unesco" />
+</menu>
